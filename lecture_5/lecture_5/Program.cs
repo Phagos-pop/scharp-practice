@@ -8,7 +8,8 @@ namespace lecture_5
         {
             GetNullArray();
             CreateArray();
-            GetMaxNumber()
+            GetMaxNumber();
+            BoxUnbox();
         }
         static void GetNullArray()
         {
@@ -58,6 +59,14 @@ namespace lecture_5
                 Console.Write($"{array[i]} ");
             }
             Console.WriteLine("Максимальное число: " + maxNumber);
+        }
+        static void BoxUnbox() 
+        {
+            short number = 12;
+            object box = number;
+
+            System.SByte num = (sbyte)box;
+            Console.WriteLine(num + " " + num
         }
     }
 }
