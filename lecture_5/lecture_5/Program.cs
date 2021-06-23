@@ -8,6 +8,7 @@ namespace lecture_5
         {
             GetNullArray();
             CreateArray();
+            GetMaxNumber()
         }
         static void GetNullArray()
         {
@@ -35,6 +36,28 @@ namespace lecture_5
             {
                 Console.WriteLine(array[i]);
             }
+        }
+        static void GetMaxNumber()
+        {
+            Random rnd = new Random();
+            int[] array = new int[10];
+            for (int i = 0; i < array.Length; i++)
+            {
+                array[i] = rnd.Next(0,1000);
+            }
+            int maxNumber = 1;
+            for (int i = 0; i < array.Length; i++)
+            {
+                if (maxNumber < array[i])
+                {
+                    maxNumber = array[i];
+                }
+            }
+            foreach (int i in array)
+            {
+                Console.Write($"{array[i]} ");
+            }
+            Console.WriteLine("Максимальное число: " + maxNumber);
         }
     }
 }
