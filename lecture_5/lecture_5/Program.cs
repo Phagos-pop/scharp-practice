@@ -22,21 +22,24 @@ namespace lecture_5
             array[1] = 'A';
             array[2] = "Hello";
 
-            foreach (int i in array)
+            for (int i = 0; i < array.Length; i++)
             {
-                Console.WriteLine(array[i]);
+                Console.Write(array[i] + " ");
             }
+            Console.WriteLine();
 
             int number =  Convert.ToInt32(array[0]) + 10 ;
             array[0] = number;
 
             string str = Convert.ToString(array[2]);
             string finStr = str + " , guys!";
+            array[2] = finStr;
 
-            foreach (int i in array)
+            for (int i = 0; i < array.Length; i++)
             {
-                Console.WriteLine(array[i]);
+                Console.Write(array[i] + " ");
             }
+            Console.WriteLine();
         }
         static void GetMaxNumber()
         {
@@ -54,7 +57,7 @@ namespace lecture_5
                     maxNumber = array[i];
                 }
             }
-            foreach (int i in array)
+            for (int i = 0; i < array.Length; i++)
             {
                 Console.Write($"{array[i]} ");
             }
@@ -65,8 +68,10 @@ namespace lecture_5
             short number = 12;
             object box = number;
 
-            System.SByte num = (sbyte)box;
-            Console.WriteLine(num + " " + num
+            short num = (short)box;
+            System.SByte num2 = (sbyte)num;
+            Console.WriteLine(num + " " + num.GetType());
+
         }
     }
 }
