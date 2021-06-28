@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practic", "Practic.csproj", "{D3BE9FEB-B158-4C51-AAFE-A0B0CB3E2684}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lecture_5_task1", "lecture_5\lecture_5\lecture_5_task1.csproj", "{F880E64D-AB14-4008-9EE0-122E6F6EBDE8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D3BE9FEB-B158-4C51-AAFE-A0B0CB3E2684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D3BE9FEB-B158-4C51-AAFE-A0B0CB3E2684}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D3BE9FEB-B158-4C51-AAFE-A0B0CB3E2684}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D3BE9FEB-B158-4C51-AAFE-A0B0CB3E2684}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F880E64D-AB14-4008-9EE0-122E6F6EBDE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F880E64D-AB14-4008-9EE0-122E6F6EBDE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F880E64D-AB14-4008-9EE0-122E6F6EBDE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F880E64D-AB14-4008-9EE0-122E6F6EBDE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
